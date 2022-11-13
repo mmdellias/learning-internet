@@ -18,3 +18,11 @@ tag <form> posso utilizar <input> acompanhado da propriedade "type"="radio"; "te
 <input type="checkbox"> id="", name="" and value="". 
   -Posso utitlizar <label for=""> para legendas 
 Temos <input type="submit" value="Enviar Formulário"> para criar um 'botão' de enviar.
+.............................................................................................................
+Select é uma tag diferente para criar uma caixa de opções, pode escolher entre vermelho ou azul, azul ou amarelo na opção abaixo:
+  <select name="cores">
+    <option value="Escolha uma cor" selected disabled>Escolha uma cor</option>
+    <option value="vermelho">vermelho</option>
+    <option value="amarelo">amarelo</option>
+    <option value="azul">azul</option>
+  </select>
